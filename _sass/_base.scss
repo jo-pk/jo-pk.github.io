@@ -59,13 +59,10 @@ pre {
     overflow-x: auto;
 }
 code {
-    font-family: 'Courier New',Consolas,monopace;
+    font-family: $mono-font-family;
     tab-size: 4;
 }
 hr {
     border: none;
-    border-top: 2px solid $border-color;
-}
-.footnotes {
     border-top: 2px solid $border-color;
 }

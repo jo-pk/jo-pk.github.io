@@ -1,10 +1,12 @@
-title: vida
-baseurl: "/vida"
+title: quiet misdreavus miniblog
+name: quiet misdreavus miniblog
+description: notes about programming but also whatever else a quiet misdreavus pens down
+baseurl: ""
+url: "https://quietmisdreavus.net"
 
-# Fill this out to include author information in RSS/OpenGraph info
-author:
+author: QuietMisdreavus
 
-exclude: ["README.md", "LICENSE"]
+exclude: ["README.md"]
 
 date_format: "%Y-%m-%d"
 
@@ -12,3 +14,7 @@ date_format: "%Y-%m-%d"
 kramdown:
   input: GFM
 permalink: pretty
+
+category_descriptions:
+  self: "personal posts, or posts about social topics"
+  code: "posts about programming projects or concepts"
