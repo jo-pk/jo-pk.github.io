@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "[Effective Java] Introduction"
-description:
-들어가며
+description: 들어가며
 categories: self
 ---
+
 
 이 책의 핵심적인 원칙:
 
