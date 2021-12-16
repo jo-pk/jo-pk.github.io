@@ -1,10 +1,10 @@
-title: quiet misdreavus miniblog
-name: quiet misdreavus miniblog
-description: notes about programming but also whatever else a quiet misdreavus pens down
+title: 조빡 블로그
+name: 조빡 블로그
+description: 책 읽고 정리해요
 baseurl: ""
-url: "https://quietmisdreavus.net"
+url: "https://jo-pk.github.io"
 
-author: QuietMisdreavus
+author: Joanne and PK
 
 exclude: ["README.md"]
 
