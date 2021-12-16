@@ -2,7 +2,7 @@
 layout: post
 title: [Effective Java] Introduction
 description:
-  들어가며
+들어가며
 categories: self
 ---
 
