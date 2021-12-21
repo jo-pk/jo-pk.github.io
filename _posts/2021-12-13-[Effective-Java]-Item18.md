@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Effective Java] Item18. 상속보다는 컴포지션을 사용하라"
-description: 들어가며
+description: 로키의 테코톡을 보도록 하자
 categories: self
 ---
 

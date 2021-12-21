@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Effective Java] Item06. 불필요한 객체 생성을 피하라"
-description: 들어가며
+description: feat. String 객체
 categories: self
 ---
 

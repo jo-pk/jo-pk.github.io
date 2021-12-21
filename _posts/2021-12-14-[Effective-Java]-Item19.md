@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Effective Java] Item19. 상속을 고려해 설계하고 문서화하라. 그러지 않았다면 상속을 금지하라"
-description: 들어가며
+description: 더러워서 안 쓴다;;;
 categories: self
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Effective Java] Item13. clone 재정의는 주의해서 진행하라"
-description: 들어가며
+description: 해본적 없지만 하게 된다면 꼭 주의하자
 categories: self
 ---
 

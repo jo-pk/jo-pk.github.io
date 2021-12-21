@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Effective Java] Item15. 클래스와 멤버의 접근 권한을 최소화하라"
-description: 들어가며
+description: 하지만 본인의 권한은 당당하게 요구하자
 categories: self
 ---
 

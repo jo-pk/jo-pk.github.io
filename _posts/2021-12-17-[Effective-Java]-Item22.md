@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Effective Java] Item22. 인터페이스는 타입을 정의하는 용도로만 사용하라"
-description: 들어가며
+description: 그 외에 다른 용도로 쓸 수 있나?!
 categories: self
 ---
 

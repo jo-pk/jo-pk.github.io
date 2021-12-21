@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Effective Java] Item23. 태그 달린 클래스보다는 클래스 계층 구조를 활용하라"
-description: 들어가며
+description: 그런데 태그란 무엇인가
 categories: self
 ---
 

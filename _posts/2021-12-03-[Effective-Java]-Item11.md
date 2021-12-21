@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Effective Java] Item11. equals를 재정의하려거든 hashCode도 재정의하라."
-description: 들어가며
+description: 은근 많은 걸 요구한다...
 categories: self
 ---
 

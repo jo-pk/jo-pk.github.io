@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Effective Java] Item10. equals는 일반 규약을 지켜 재정의하라"
-description: 들어가며
+description: 잘 만든 equals 여러 테스트 코드 부럽지 않다
 categories: self
 ---
 

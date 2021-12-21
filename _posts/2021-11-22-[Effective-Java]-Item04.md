@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Effective Java] Item04. 인스턴스화를 막으려거든 private 생성자를 사용하라"
-description: 들어가며
+description: 생성자의 접근 권한자에 public 말고 다른게 올 수 있다고?
 categories: self
 ---
 

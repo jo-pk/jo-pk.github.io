@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Effective Java] Item17. 변경 가능성을 최소화하라"
-description: 들어가며
+description: 하지만 Entity라면...?
 categories: self
 ---
 

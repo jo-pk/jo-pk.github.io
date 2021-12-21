@@ -1,6 +1,8 @@
 ---
-layout: post title: "[Effective Java] Item25. 톱레벨 클래스는 한 파일에 하나만 담으라"
-description: 들어가며 categories: self
+layout: post
+title: "[Effective Java] Item25. 톱레벨 클래스는 한 파일에 하나만 담으라"
+description: 안 그러면 소스 코드 컴파일 순서 때문에 결과가 바뀐다
+categories: self
 ---
 
 Author: seovalue

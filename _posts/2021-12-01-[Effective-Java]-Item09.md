@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Effective Java] Item09. try-finally보다는 try-with-resources를 사용하라"
-description: 들어가며
+description: 안 쓰면 나중에 디버깅이 힘들어진다
 categories: self
 ---
 

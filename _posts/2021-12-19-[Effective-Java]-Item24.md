@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Effective Java] Item24. 멤버 클래스는 되도록 static으로 만들어라"
-description: 들어가며
+description: 그리고 멤버 클래스의 네 가지 종류
 categories: self
 ---
 

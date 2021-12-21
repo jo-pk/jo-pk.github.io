@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Effective Java] Item12. toString을 항상 재정의하라"
-description: 들어가며
+description: 항상...?
 categories: self
 ---
 

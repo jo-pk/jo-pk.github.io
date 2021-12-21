@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Effective Java] Item08. finalizer와 cleaner 사용을 피하라"
-description: 들어가며
+description: 조앤은 이 부분이 가장 이해하기 까다로웠다고 한다
 categories: self
 ---
 

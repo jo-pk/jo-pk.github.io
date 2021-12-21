@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Effective Java] Item14. Comparable을 구현할 지 고려하라"
-description: 들어가며
+description: 하지만 자신을 남과 비교하는건 고려하지 말자
 categories: self
 ---
 

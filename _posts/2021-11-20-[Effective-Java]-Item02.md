@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Effective Java] Item02. 생성자에 매개변수가 많다면 빌더를 고려하라"
-description: 들어가며
+description: 우리는 언제 빌더를 써야할까
 categories: self
 ---
 

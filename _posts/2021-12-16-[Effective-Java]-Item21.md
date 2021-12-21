@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Effective Java] Item21. 인터페이스는 구현하는 쪽을 생각해 설계하라"
-description: 들어가며
+description: 역지사지의 마음을 가지도록 하자
 categories: self
 ---
 
