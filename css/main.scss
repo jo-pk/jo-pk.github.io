@@ -10,10 +10,11 @@ $base-font-size:   16px;
 $small-font-size:  0.875rem;
 $base-line-height: 1.5;
 
-$text-color:   #333;
-$link-color:   #0074d9;
-$meta-color:   #a0a0a0;
-$border-color: #ddd;
+$background-color:    #222222;
+$text-color:          #ffffff;
+$link-color:          #0074d9;
+$meta-color:          #a0a0a0;
+$border-color:        #dddddd;
 
 @import "color";
 @import "base";
