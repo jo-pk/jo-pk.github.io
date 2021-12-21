@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Effective Java] Item9. try-finally보다는 try-with-resources를 사용하라"
+title: "[Effective Java] Item09. try-finally보다는 try-with-resources를 사용하라"
 description: 들어가며
 categories: self
 ---

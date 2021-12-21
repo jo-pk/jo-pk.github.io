@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Effective Java] Item6. 불필요한 객체 생성을 피하라"
+title: "[Effective Java] Item06. 불필요한 객체 생성을 피하라"
 description: 들어가며
 categories: self
 ---

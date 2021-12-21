@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Effective Java] Item7. 다 쓴 객체 참조를 해제하라"
+title: "[Effective Java] Item07. 다 쓴 객체 참조를 해제하라"
 description: 들어가며
 categories: self
 ---

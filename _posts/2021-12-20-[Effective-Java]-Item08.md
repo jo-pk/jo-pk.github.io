@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Effective Java] Item8. finalizer와 cleaner 사용을 피하라"
+title: "[Effective Java] Item08. finalizer와 cleaner 사용을 피하라"
 description: 들어가며
 categories: self
 ---

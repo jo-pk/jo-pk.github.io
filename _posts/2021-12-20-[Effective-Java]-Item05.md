@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Effective Java] Item5. 자원을 직접 명시하지 말고 의존 객체 주입을 사용하라"
+title: "[Effective Java] Item05. 자원을 직접 명시하지 말고 의존 객체 주입을 사용하라"
 description: 들어가며
 categories: self
 ---

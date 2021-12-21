@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Effective Java] Item3. private 생성자나 열거 타입으로 싱글턴임을 보증하라"
+title: "[Effective Java] Item03. private 생성자나 열거 타입으로 싱글턴임을 보증하라"
 description: 들어가며
 categories: self
 ---

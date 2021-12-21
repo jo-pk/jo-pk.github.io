@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Effective Java] Item2. 생성자에 매개변수가 많다면 빌더를 고려하라"
+title: "[Effective Java] Item02. 생성자에 매개변수가 많다면 빌더를 고려하라"
 description: 들어가며
 categories: self
 ---
