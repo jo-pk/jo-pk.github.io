@@ -15,6 +15,8 @@ kramdown:
   input: GFM
 permalink: pretty
 
+asset_url: /assets
+
 category_descriptions:
   self: "personal posts, or posts about social topics"
   code: "posts about programming projects or concepts"
