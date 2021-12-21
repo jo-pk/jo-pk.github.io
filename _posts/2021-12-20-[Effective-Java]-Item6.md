@@ -48,3 +48,43 @@ private static long sum() {
     return sum;
 }
 ```
+
+-----
+
+Author: PK
+
+불변 객체는 언제든지 재사용할 수 있다.
+
+```java
+String never = new String("don't do this"); // do not follow this code
+
+String good = "this is better";
+```
+
+String.matches 메서드는 정규표현식으로 문자열 형태를 확인하는 가장 쉬운 방법이지만, 성능이 중요한 상황에서 반복해 사용하기엔 적합하지 않다. 이 메서드가 사용하는 Pattern 인스턴스는 한 번 쓰고 나면 가비지 컬렉션 대상이 되는데, 이 객체는 입력받은 정규표현식에 해당하는 유한 상태 머신(finite state machine)을 만들기 때문에 인스턴스 생성 비용이 높다. 그러니 스태틱 필드로 캐싱해두고 재활용하는 것이 좋다.
+
+```java
+private static final Pattern ROMAN = Pattern.compile(/* pattern */);
+
+static boolean isRomanNumeral(String target) {
+	 return ROMAN.matcher(target).matches();
+}
+```
+
+만약 이것을 보고 많이 사용하지 않을 것을 고려해서 지연초기화를 생각했다면, 저자는 비추한다. 지연초기화 구현의 복잡함에 비해 성능적 이점이 그리 크지 않아서다.
+
+박싱된 기본 타입보다는 기본 타입을 사용하고, 의도치 않은 오토박싱이 숨어들지 않도록 주의하자.
+
+다음 코드는 불변인 Long 타입 객체를 사용하는 바람에 시간이 엄청나게 느려진다:
+
+```java
+private static long sum() {
+  Long sum = 0L;
+  for (long i = 0; i <= Integer.MAX_VALUE; i++) {
+    sum += i;
+  }
+  return sum;
+}
+```
+
+똑똑한 척 하려고 객체 생성에 소비되는 시간을 줄이기 위해 pool을 만들겠다는 생각은 되도록이면 하지 말자. 데이터베이스 연결과 같은 경우는 워낙 생성 비용이 비싸서 pool을 만들고 관리하는 것이 좋지만, 요즘 JVM의 가비지 컬렉터는 웬만한 경우에 직접 만든 pool보다 훨씬 빠르게 작동한다.

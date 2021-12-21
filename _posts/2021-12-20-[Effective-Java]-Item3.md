@@ -68,3 +68,52 @@ public enum Elvis {
 ```
 
 위 enum 방식을 활용한다면 직렬화, 리플렉션 공격에서도 제 2의 인스턴스가 생성되는 것을 완벽히 막아준다. 대부분의 상황에서는 원소가 하나뿐인 열거 타입이 싱글턴을 만드는 가장 좋은 방법이다.
+
+-----
+
+Author: PK
+
+싱글턴으로 상태가 없는 객체나 설계상 유일해야 하는 시스템 컴포넌트를 만든다.
+
+하지만 인터페이스를 구현해서 만든 객체가 아니라면 mock 구현으로 대체할 수가 없어서 테스트가 어렵다.
+
+싱글턴을 만드는 세 가지 방법:
+
+1. public static final 필드 방식의 싱글턴
+
+```java
+public class Something {
+
+  public static final Something INSTANCE = new Something();
+  private Something() {}
+  // ...
+}
+```
+
+1. 정적 팩터리 방식의 싱글턴
+
+```java
+public class Something {
+
+  private static final Something INSTANCE = new Something();
+  private Something();
+
+  public static Something getInstance() {
+    return INSTANCE;
+  }
+}
+```
+두 번째 방법의 장점은 변경에 유연한 것. 첫 번째 방법의 장점은 싱글턴 인스턴스라는 것을 사용자가 명확하게 알고 사용한다는 점이다. 둘 다 직렬화 하려면 신경을 좀 써야한다. 그렇지 않으면 역직렬화 할 때 새로운 인스턴스가 생성된다.
+
+1. enum 타입 방식의 싱글턴
+
+```java
+public enum Something {
+  INSTANCE;
+
+  public void doAction() {
+  }
+}
+```
+
+이 방법은 public static 필드 방식과 비슷한데, 더 간결하고 추가 노력 없이 직렬화가 가능하다. 심지어 아주 복잡한 직렬화 상황이나 리플렉션 공격에서도 제2의 인스턴스가 생기는 일을 완벽하게 막아준다. 조금 부자연스럽게 보일 수는 있어도 저자가 가장 바람직하다고 말하는 방식이다.

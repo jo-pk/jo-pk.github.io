@@ -62,3 +62,11 @@ public class SpellChecker {
 ```
 Mosaic create(Supplier<? extends Tile> tileFactory) { ... }
 ```
+
+-----
+
+Author: PK
+
+간단하다.
+
+객체가 사용하는 자원이 있다면, 객체가 그것을 직접 생성하게 하지 말고 외부로부터 주입 받자. 당연하다.
