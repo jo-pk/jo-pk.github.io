@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Effective Java] Item29. 이왕이면 제네릭 타입으로 만들라"
-description:
+description: 배열을 제네릭 방식으로 바꾸는 두 가지 방법
 categories: self
 ---
 

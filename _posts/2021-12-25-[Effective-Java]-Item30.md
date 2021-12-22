@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Effective Java] Item30. 이왕이면 제네릭 메서드로 만들라"
-description:
+description: 하는 김에 다 하자
 categories: self
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Effective Java] Item32. 제네릭과 가변인수를 함께 쓸 때는 신중하라"
-description:
+description: 가변인수는 구현에 허점이 있다!
 categories: self
 ---
 

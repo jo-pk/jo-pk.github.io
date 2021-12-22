@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Effective Java] Item33. 타입 안전 이종 컨테이너를 고려하라"
-description:
+description: 다양한 타입을 골라 담을 수 있다
 categories: self
 ---
 

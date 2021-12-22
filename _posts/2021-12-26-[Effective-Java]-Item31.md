@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Effective Java] Item31. 한정적 와일드카드를 사용해 API 유연성을 높이라"
-description:
+description: 쓰고 또 쓰고
 categories: self
 ---
 
