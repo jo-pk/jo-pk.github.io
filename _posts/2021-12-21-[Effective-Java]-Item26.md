@@ -5,8 +5,6 @@ description: 제네릭이 등장한 이유
 categories: self
 ---
 
-Author: seovalue
-
 > 아이템 26. 로 타입은 사용하지 말라
 
 | 용어                      | 한글 용어         | 예                                | 아이템        |
@@ -22,6 +20,26 @@ Author: seovalue
 | bounded wildcard type   | 한정적 와일드카드 타입  | List<? extends Number            | 아이템 31     |
 | generic method          | 제네릭 메서드       | static <E> List<E> asList(E[] a) | 아이템 30     |
 | type token              | 타입 토큰         | String.class                     | 아이템 33     |
+
+
+-----
+
+Author: seovalue
+
+로 타입을 사용하면 런타임에 예외가 일어날 수 있으니 사용하면 안된다.<br>
+
+그렇다면 로 타입이 존재하는 이유는 무엇일까?<br>
+로 타입은 제네릭이 도입되기 이전 코드와의 호환성을 위해 존재한다.<br>
+
+```java
+// GOOD
+Set<Object> set = new HashSet<>();
+Set<?> set = new HashSet<>();
+
+// BAD
+Set badSet = new HashSet<>(); -> 컴파일될 지도 모르겠다.
+```
+
 
 _____
 
