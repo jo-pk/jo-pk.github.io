@@ -5,9 +5,30 @@ description: 비트에 몸을 맡기지 말자
 categories: self
 ---
 
+> 아이템 36. 비트 필드 대신 EnumSet을 사용하라
+
+
+-----
+
 Author: seovalue
 
-> 아이템 36. 비트 필드 대신 EnumSet을 사용하라
+비트 필드를 사용해 본 적이 없다.<br>
+다행인 걸까?<br>
+
+비트 필드 대신 EnumSet을 활용하라고 되어있다.<br>
+EnumSet은 List.of 처럼 `EnumSet.of(Enum.PK, Enum.JOANNE)`와 같이 사용할 수 있다.<br>
+EnumSet은 비트 필드 수준의 명료함과 성능을 제공하며, 열거 타입의 장점까지 제공하기 때문이다.<br>
+
+```text
+EnumSet의 특징
+1. enum 클래스로 동작하기 위해 특화된 Set 컬렉션.
+2. Set이기 때문에 데이터 중복 저장 불가, 순서 보장 안됨.
+3. EnumSet의 내부는 비트 벡터로 구현되어있음.
+4. 열거형 값만 포함할 수 있음.
+5. null 안됨.
+6. thread-safe 하지 않음.
+``` 
+
 
 -----
 
