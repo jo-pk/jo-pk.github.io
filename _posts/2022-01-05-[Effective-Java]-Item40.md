@@ -5,9 +5,15 @@ description: 꼭 붙이자
 categories: self
 ---
 
+> 아이템 40. @Override 애너테이션을 일관되게 사용하라
+
+-----
+
 Author: seovalue
 
-> 아이템 40. @Override 애너테이션을 일관되게 사용하라
+`@Override` 애너테이션을 통해 이 메서드가 재정의된 메서드임을 명시적으로 나타낼 수 있다고 생각한다. 불필요하지 않은 것을 생략하는 것은 실수를 유발할 수 있다.
+
+
 -----
 
 Author: PK
