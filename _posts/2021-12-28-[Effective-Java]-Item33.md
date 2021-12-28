@@ -5,9 +5,22 @@ description: 다양한 타입을 골라 담을 수 있다
 categories: self
 ---
 
+> 아이템 33. 타입 안전 이종 컨테이너를 고려하라
+
+
+-----
+
 Author: seovalue
 
-> 아이템 33. 타입 안전 이종 컨테이너를 고려하라
+타입 안전 이종 컨테이너라...<br> 
+말부터 어렵다.<br>
+
+타입 안전 이종 컨테이너가 활용된 예시로 RestAssured의 response.as() 메서드를 생각해도 될까?<br>
+해당 메서드에서도 class를 전달받아 해당 class로 response를 변환한다.<br>
+어렵다.<br>
+
+아마 PK도 모르는데 그냥 쓴 거 일거다.<br>
+
 
 -----
 
